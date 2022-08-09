@@ -1,0 +1,40 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: coreHTTP
+DocumentNamespace: https://github.com/FreeRTOS/coreHTTP/blob/v2.1.0/sbom.spdx
+Creator: Amazon Web Services
+Created: 2022-08-09T22:30:04Z
+CreatorComment: NOASSERTION
+DocumentComment: NOASSERTION
+
+PackageName: coreHTTP
+SPDXID: SPDXRef-Package-coreHTTP
+PackageVersion: v2.1.0
+PackageDownloadLocation: https://github.com/xlin7799/coreHTTP/tree/v2.1.0
+PackageLicenseConcluded: MIT
+FilesAnalyzed: True
+PackageVerificationCode: 523a67f6c568f7a26de140ef9c8fc76945218ab2
+PackageCopyrightText: NOASSERTION
+PackageSummary: NOASSERTION
+PackageDescription: Client implementation of the HTTP/1.1 specification for embedded devices.
+
+FileName: ./core_http_client.c
+SPDXID: SPDXRef-File-core_http_client.c
+FileChecksum: SHA1: b36ab00ab3197ad5b3bb1a9e876984ab81c60ea2
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+PackageName: llhttp
+SPDXID: SPDXRef-Package-llhttp
+PackageVersion: release/v6.0.5
+PackageDownloadLocation: https://github.com/nodejs/llhttp.git
+PackageLicenseConcluded: MIT
+FilesAnalyzed: True
+PackageVerificationCode: da39a3ee5e6b4b0d3255bfef95601890afd80709
+PackageCopyrightText: NOASSERTION
+PackageSummary: NOASSERTION
+PackageDescription: NOASSERTION
+
+Relationship: SPDXRef-Package-coreHTTP DEPENDS_ON SPDXRef-Package-llhttp
